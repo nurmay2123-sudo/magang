@@ -12,10 +12,8 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-import streamlit as st
-
-st.title("Diabetes Prediction System")
-st.write("Aplikasi berjalan 🚀")
+app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "OPTIONS"], "allow_headers": ["Content-Type"]}})
 
 # Configuration
 BASE_DIR = Path(__file__).parent
