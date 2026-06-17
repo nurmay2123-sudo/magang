@@ -17,8 +17,8 @@ CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "OPTIONS
 
 # Configuration
 BASE_DIR = Path(__file__).parent
-MODEL_PATH = Path(r"C:\Users\Melinda Siburian\PycharmProjects\diabetes_prediction_system\random_forest_tuned_model.pkl")
-THRESHOLD_PATH = Path(r"C:\Users\Melinda Siburian\PycharmProjects\diabetes_prediction_system\optimal_threshold.pkl")
+MODEL_PATH = Path(r"C:\Users\nurmay2123-sudo\magang\diabetes_prediction_system\random_forest_tuned_model.pkl")
+THRESHOLD_PATH = Path(r"C:\Users\nurmay2123-sudo\magang\diabetes_prediction_system\optimal_threshold.pkl")
 CONFIG_PATH = BASE_DIR / 'config.json'
 
 # Load model and configuration
